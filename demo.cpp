@@ -25,6 +25,7 @@ int main(void)	{
 	thread3.join();
 	cout << "syncing threads" << endl;
 	cout << "fuck you " << endl;
+cout << "fyck you too" << endl;
 	return 0;
 }
 
