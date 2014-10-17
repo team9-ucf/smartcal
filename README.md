@@ -1,2 +1,3 @@
 # SmartCal
-(team9-ucf.github.io)[Our page]
+
+[Our Docs](team9-ucf.github.io)
