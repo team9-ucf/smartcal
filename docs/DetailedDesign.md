@@ -52,17 +52,18 @@
 		* SuggestionController
 			* Generates Suggestions for workouts based on user's history/rating or present user predefined set of available workouts to schedule or participate in.
 
-* View/Rate Suggestion Service 
-* Intuitive User-Interface
-* Documentation Storage
-* Accessibility Feature
-* Notification Feature
-* 
+	* Feature Requirements
+		* View/Rate Suggestion Service 
+		* Intuitive User-Interface
+		* Documentation Storage
+		* Accessibility Feature
+		* Notification Feature
 
 
 
 
 
+--------------------
 
 
 
@@ -83,17 +84,23 @@
 	* The user shall be able to access their software from a modern PC with either the Windows 7 or 8 Operating system, or the current Mac OS.
 * Users and Human Factor Requirements
 	* The system shall require its users to have only the documentation that comes with the application.
-	* The system shall require its users to have only the documentation that comes with the applciation.
 	* The system shall provide its users special accommodations such as larger font sizes and a neutral color scheme for those that are color blind.
 	* The system shall maintain its own independent copy of the database and the software so that no private information between other users is jeopardized
-	*  
-
-
-
-
-
-
-
-
-
-
+	
+* Documentation Requirements
+	* User shall have access to documentation through the application
+	* User is assumed to have a skill level of novice with minimal computer experience
+	
+* Data Requirements
+	* The system shall retain all data of the user's profile for personalization of notifications and specializing the suggestions
+	* The system shall retain all ratings of the suggestions made by the user and data taken from the events created by the user, to personalization of notifications and specializing the suggestions
+	
+* Resource Requirement
+	* Software Engineers to maintain the system
+	* System will utilize C#, .Net, and Mysql
+	* The system shall be independent from other systems so information is accessible only from the user who produced the information
+	* The system shall backup its data once every 5 minutes the application is running in case of the computer or application shutting down inadvertently
+* Quality Assurance Requirements
+	* The system will be available 100% of the time so long as the user's PC and/or files remain original and operational.
+	* The system shall be reliable to notify the user 99.99% of the time of their upcoming events on time
+	* The system shall receive updates to upkeep and improve the quality of the suggestions and the application itself
