@@ -12,7 +12,7 @@
 - **Maintainability**
 	* The Model-View-Controller's Architecture inherently simplifies the task of identifying where faults (defect) to errors in our system are.  
 	* Because Agile Model is being used, if errors are not discovered through testing, customer feedback can supply useful information regarding faults in the system.  Once the presence of a fault has been verified, the fix to the fault will be applied on the next iteration of the lifecycle process.
-- Performance
+- **Performance**
 	* Initially in our development process, the system's performance isn't high priority and our system is deemed optimal as long as our application is usable and functional.  
 	
 - **Database Integrity**
@@ -71,8 +71,6 @@
 
 --------------------
 
-
---------------------
 
 
 ## Trace of Requirement to Design
