@@ -21,13 +21,13 @@
   - Portability is a almost always a requirement for most software applications.  The decision to limit our range of device/software compatibility was made due to our initiative to begin the next cycle of our agile process life-cycle
   
 - **Maintainability**
-	* The Model-View-Controller's Architecture inherently simplifies the task of identifying where faults (defect) to errors in our system are.  
-	* Because Agile Model is being used, if errors are not discovered through testing, customer feedback can supply useful information regarding faults in the system.  Once the presence of a fault has been verified, the fix to the fault will be applied on the next iteration of the lifecycle process.
+	- The Model-View-Controller's Architecture inherently simplifies the task of identifying where faults (defect) to errors in our system are.  
+	- Because Agile Model is being used, if errors are not discovered through testing, customer feedback can supply useful information regarding faults in the system.  Once the presence of a fault has been verified, the fix to the fault will be applied on the next iteration of the lifecycle process.
 - **Performance**
-	* Initially in our development process, the system's performance isn't high priority and our system is deemed optimal as long as our application is usable and functional.  
+	- Initially in our development process, the system's performance isn't high priority and our system is deemed optimal as long as our application is usable and functional.  
 	
 - **Database Integrity**
-	* Database Integrity is manage by the Database Management System (in our case MySQL).  In the context of our application, database integrity will assume to be preserved by the DBMS automatically.
+	- Database Integrity is manage by the Database Management System (in our case MySQL).  In the context of our application, database integrity will assume to be preserved by the DBMS automatically.
 
 
 
@@ -37,12 +37,19 @@
 
 
 ## Detailed Design Information
-* Login/Registration (System Perspective) Activity Diagram
-* Create/Edit Profile Sequence Diagram
-* Class Diagram
-	* Objects
-		* User
-			* Attribs: 
+- Login/Registration (System Perspective) Activity Diagram
+![](http://fc09.deviantart.net/fs71/f/2014/291/d/b/user_loginregister_activity_diagram_by_thrice43-d83bfru.svg)
+
+
+
+- Create/Edit Profile Sequence Diagram
+![](http://fc02.deviantart.net/fs71/f/2014/291/a/f/createprofilesequence_by_thrice43-d83bfvm.svg)
+
+
+- Class Diagram
+	- Objects
+		- User
+			- Attribs: 
 				* Name
 				* Age
 				* Sex
